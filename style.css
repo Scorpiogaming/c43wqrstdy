@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(103, 180, 248);
+}
+h1{
+    background-color: rgb(31, 184, 17);
+    color: rgb(223, 178, 119);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+ justify-content:space-evenly;
+}
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: rgb(130, 248, 106);
+    width:300px;
+    font-family: sans-serif;
+}
+.origami:hover{
+    transform:scale(1,1.5);
+}
+a {
+    text-decoration: none;
+}
+a:link{
+ color: white;
+}
+a:hover{
+    color: rgb(241, 9, 9);
+   }
+   .origamidog{
+       position: relative;
+   }
+   .origamidog p{
+       position: absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+    }
+   .origamidog:hover p{
+       opacity:1;
+   }
+   .origamidog:hover img{
+    opacity:0.3;
+}
